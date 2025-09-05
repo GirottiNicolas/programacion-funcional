@@ -1,0 +1,108 @@
+¿Cuáles son las posibles formas por las cuáles una expresión no sea válida?
+
+- Está completa y todos sus símbolos tienen significado, pero la combinación de sus partes carece de sentido
+
+- Le faltan símbolos, o los símbolos que la conforman no tienen significado asociado
+
+----------------------------------------------------------------------
+
+¿En qué se diferencian las expresiones de tipo de las expresiones de valores?
+
+- Unas denotan conjuntos de valores y otras denotan valores
+
+----------------------------------------------------------------------
+
+¿Qué significa exactamente que una expresión e tenga tipo A?
+
+
+- Que el valor denotado por e pertenece al conjunto denotado por A
+
+----------------------------------------------------------------------
+
+¿De qué manera se puede establecer cuándo se cumple la relación de tipado?
+
+- Mediante sistemas de reglas
+
+----------------------------------------------------------------------
+
+¿Qué se pierde si se exige que exista un programa que calcule la relación de tipado?
+
+- PRECISION
+
+----------------------------------------------------------------------
+
+¿Cómo debe leerse una regla de asignación de tipo?
+
+-  Como un esquema a encontrar
+
+
+----------------------------------------------------------------------
+
+En la regla que le da tipo a una aplicación (f e), ¿qué significado conlleva que la letra A aparezca en ambas premisas?
+
+- Que la parte derecha de la aplicación, e, debe tener el mismo tipo que el parámetro de la función de la parte izquierda, f
+
+----------------------------------------------------------------------
+
+Siempre es necesario desplegar la totalidad de las reglas de tipo para poder calcular el tipo de una expresión.
+
+- Falso
+
+
+
+----------------------------------------------------------------------
+
+Ordenar los pasos a realizar durante la inferencia del tipo de una expresión, asociando a cada paso con su número de orden
+
+
+1-  Se plantea la pregunta 
+2-  Se desarrollan las partes de la definición 
+3-  Se determinan las reglas a aplicar 
+4-  Se analiza cuáles son los componentes
+5-  Se propaga la información (y se toman decisiones de ser necesario) 
+6-  Se concluye con el resultado 
+
+----------------------------------------------------------------------
+
+¿Qué se agrega al conjunto de expresiones de tipo para obtener polimorfismo?
+
+- VARIABLES
+
+
+----------------------------------------------------------------------
+
+¿Qué significa que una expresión e tenga tipo a->a?
+
+-  Que el valor denotado por e es una función que toma elementos de algún tipo a y retorna un elemento de ese mismo tipo
+
+----------------------------------------------------------------------
+
+Cuando una variable de tipo, a, adopta diferentes tipos en diferentes usos de una expresión polimórfica, se dice que el tipo a fue . . . a diferentes tipos:
+
+- INSTANCIADO
+
+----------------------------------------------------------------------
+
+¿Cuántos tipos diferentes admite una expresión que recibe un tipo sin variables en un sistema con polimorfismo paramétrico?
+
+-  Exactamente uno
+
+
+
+----------------------------------------------------------------------
+
+De las frases dadas a continuación, seleccionar todas las que correspondan a ventajas de un sistema de tipos:
+
+
+- Detección temprana de errores
+
+- Documentación rudimentaria
+
+- Oportunidades de optimización en ejecución (¿POR QUÉ?)
+
+----------------------------------------------------------------------
+
+¿Qué característica destacada tiene un sistema de tipos fuerte (strong typing)?
+
+
+- Las expresiones que tienen tipo no fallan por problemas de tipo

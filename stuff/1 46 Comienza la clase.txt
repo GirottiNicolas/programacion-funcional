@@ -1,0 +1,11 @@
+1:46             -> Comienza la clase
+6:58             -> Motivación
+15:03          -> Sistemas de tipos
+31:55          -> Sistema de tipos calculables
+47:20          -> Noción de tipado como parte del mecanismo operacional
+50:30          -> Sistema Hindley-Milner Simple
+1:15:57       -> Fin del break
+1:40:17       -> Polimorfismo: Motivación 
+1:58:00       -> Sistema Hindley-Milner Polimórfico
+2:17:59       -> Observaciones finales
+2:32:48       -> Resumen
