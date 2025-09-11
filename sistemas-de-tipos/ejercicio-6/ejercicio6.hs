@@ -4,9 +4,21 @@ ejercicio 3 es equivalente.
 
 Ofrecer argumentos de por qué son equivalentes.
 
+appFork :: (a -> b , a -> c )  ->  (a   -> (b , c))
+
 
 a. \p -> let (f, g) = p
             in \x -> (f x, g x)
+
+Funcion que toma un par de funciones (f,g) y 
+devuelve una funcion que devuelve un par 
+
+:: (... -> ... , ... -> ... ) -> (... -> (... , ...))
+
+
+
+(x -> (f x, g x))
+
 
 b. \f -> (\g -> (\x -> f x (g x))
 

@@ -1,3 +1,10 @@
+{-
+const es una funcion que recibe dos argumentos y devuelve siempre el 
+primero
+
+-}
+
+
 const x = g
         where g y = x
 

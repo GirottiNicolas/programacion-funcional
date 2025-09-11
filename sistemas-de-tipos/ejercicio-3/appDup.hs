@@ -1,7 +1,12 @@
 
 -- appDup se asocia con el tipo II.
 
-appDup :: (a,a) -> b  -> ( a -> b  )
+
+
+{-
+appDup toma una funcion que va de par en b, y devuelve una
+funcion de que va a en b.
+-}
 
 appDup f = g
     where g x = f (x, x)

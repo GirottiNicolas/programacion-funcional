@@ -1,10 +1,13 @@
 
 {- 
 
-(a -> b, c -> d) -> ( (a, c) -> (b, d) )  
-appPar  :: (a -> b, c -> d) -> ((a,c) -> (b,d))
+appPar es una funcion toma un par de funciones y devuelve 
+una funcion que va de par en par, en la cual el argumento de la funcion
+esta formado por los argumentos de las funciones anteriores, y el resultado
+esta formado por los resultados de las funciones del par anterior.
 -}
 
+appPar  :: (a -> b, c -> d) -> ((a,c) -> (b,d))
 
 appPar (f, g) = h
         where h (x, y) = (f x, g y)

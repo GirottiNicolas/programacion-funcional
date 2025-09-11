@@ -1,3 +1,9 @@
+{-
+appDist es una funcion que toma una funcion que va de 'a en b'
+y devuelve una funcion que va de par a en par b
+-}
+
+
 appDist f = g
         where g (x, y) = (f x, f y)
 
