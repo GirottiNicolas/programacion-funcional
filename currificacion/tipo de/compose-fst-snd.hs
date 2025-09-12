@@ -36,3 +36,13 @@ compose fst :: ( a' ->  (a,b) ) -> a' -> a
 snd           :: (a,b)  ->   b
 ---------------------------------------------------------- { a' <- (a,b);   (a'',b') <- b ;
 (compose fst) snd :: (a, (a'',b')) -> a''
+
+{-
+    Me habia quedado (a,b) -> a'', pero al ver el tipo en ghci no coincidia,
+    por lo cual vi que si reemplazaba a 'b' por el par al cual estaba reemplazando, 
+    si coincidia, pero no termine de comprender bien el por que era 
+    necesaria dicha conversion.
+
+    ¿No podria ser valido (a,b) -> a'' ?
+
+-}
