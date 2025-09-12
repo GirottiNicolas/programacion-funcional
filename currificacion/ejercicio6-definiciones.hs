@@ -19,3 +19,15 @@ id' x = x
 doble' :: Int -> Int
 doble' x = x + x
 
+{-
+
+a. compose (fst snd)
+
+b. (uncurry curry snd)
+
+c. (apply id) ((id apply) apply)
+
+d. compose (compose doble doble)
+
+e. (compose compose) doble doble
+-}
